@@ -1,10 +1,13 @@
 import express from 'express'
+
 const app = express()
-app.get('/', (req: express.Request, res: express.Response) => {
-    console.log(`request URL : ${req.url}`)
-    res.send(`Hello Express !`)
-})
+
+import { IndexRoute } from './routes/index_route'
+
+app.use(IndexRoute)
 
 app.listen(3000, () => {
     console.log(`listening on port 3000`)
 })
+
+export default app
