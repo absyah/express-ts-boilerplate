@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1681315004537" clover="3.2.0">
-  <project timestamp="1681315004537" name="All files">
+<coverage generated="1681350206041" clover="3.2.0">
+  <project timestamp="1681350206041" name="All files">
     <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="16" coveredelements="16" complexity="0" loc="14" ncloc="14" packages="3" files="3" classes="3"/>
-    <package name="express-ts-boilerplate">
+    <package name="src">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index.ts" path="/Users/absyah/projects/express-ts-boilerplate/index.ts">
+      <file name="index.ts" path="/Users/absyah/projects/express-ts-boilerplate/src/index.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -15,17 +15,17 @@
         <line num="13" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="express-ts-boilerplate.deliveries">
+    <package name="src.deliveries">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index_delivery.ts" path="/Users/absyah/projects/express-ts-boilerplate/deliveries/index_delivery.ts">
+      <file name="index_delivery.ts" path="/Users/absyah/projects/express-ts-boilerplate/src/deliveries/index_delivery.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="express-ts-boilerplate.routes">
+    <package name="src.routes">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index_route.ts" path="/Users/absyah/projects/express-ts-boilerplate/routes/index_route.ts">
+      <file name="index_route.ts" path="/Users/absyah/projects/express-ts-boilerplate/src/routes/index_route.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
